@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Open+Sans:ital,wght@1,500&family=Ubuntu&family=Varela+Round&display=swap');
 
 body {
-    background-image: url("background.jpg");
+  background-color :black;
 }
 
 * {
@@ -10,7 +10,16 @@ body {
 }
 
 nav {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  overflow: hidden;
+  padding: 30px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background-color: black;
 }
 
 nav ul {
@@ -67,14 +76,16 @@ h1 {
 }
 
 .container {
-    min-height: 72vh;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    width: 90% ;
-    margin: 23px auto;
-    border-radius: 12px;
-    padding: 35px;
+  min-height: 72vh;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  width: 90%;
+  margin-top: 7%;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  padding: 35px;
+  background-image: url("background.jpg");
 }
 
 #myProgressBar {
